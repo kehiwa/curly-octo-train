@@ -198,6 +198,8 @@ Folgender Hardware-Stack könnte für Prototypen oder produktive Versionen einge
 - LiFePo4 Akkupack, 600Ah
 - Raspberry Pi 5 für Hashing der Nummern, Upload der Hashes mit Zeitstempel
 - Für Prototyp, Advantech-Router für Internetverbindung zu Datenbank, Alternativ Raspberry Pi Hat, Modul mit 4G/5G
+- Einstellung des Stationsnamen direkt im Gehäuse über bspw. Codierscheiben oder minimales GUI über Display. Möglichst einfache Konfiguration.
+- Einstellung der Erfassungsgruppe im Gehäuse, um die Erfassung mit gleicher Hardware an unterschiedlichen Standorten / Ortschaften zu ermöglichen. 
 
 ### 15.1 Leistungsverbrauch und Autonomiezeit
 |Verbraucher        |Leistungsaufnahme|
@@ -205,9 +207,10 @@ Folgender Hardware-Stack könnte für Prototypen oder produktive Versionen einge
 |Kamera 2x          | 7.2W            |
 |Raspberry Pi 5     | 6W              |
 |Advantech ICR 4161W| 6.8W            |
-|**Total AVG**      | 20W             |
+|**Total AVG**      | 27.2W           |
 
-Mit 600Ah kann eine rein rechnerische Laufzeit von 360h oder **15 Tagen** erreicht werden.
+Mit 600Ah kann eine rein rechnerische Laufzeit von 260h oder **11 Tagen** erreicht werden.
+Durch Hardware-Optimierungen sollten problemlos bis zu 15 Tage möglich sein.
 
 ## 16. Datendiagramm Erfassung
 ```mermaid
