@@ -198,6 +198,8 @@ The following hardware stack could be used for prototypes or production versions
 - LiFePo4 battery pack, 600Ah
 - Raspberry Pi 5 for hashing license plate numbers, uploading hashes with timestamp
 - For prototype: Advantech router for internet connection to database; alternatively Raspberry Pi Hat module with 4G/5G
+- Configuration of the stations name directly in the case, possibly with rotary switches or a minimal GUI on a display. Most important is the easy configuration.
+- Configuration of the data-capture group directly in the case, to enable data capturing in different locations / cities at the same time.
 
 ### 15.1 Power Consumption and Autonomy Time
 |Consumer            |Power Consumption|
@@ -205,9 +207,10 @@ The following hardware stack could be used for prototypes or production versions
 |Camera 2x           | 7.2W            |
 |Raspberry Pi 5      | 6W              |
 |Advantech ICR 4161W | 6.8W            |
-|**Total AVG**       | 20W             |
+|**Total AVG**       | 27.2W           |
 
-With 600Ah, a theoretical runtime of 360 hours or **15 days** can be achieved.
+With 600Ah, a theoretical runtime of 260 hours or **11 days** can be achieved.
+With hardware optimisations it should be easily possible to reach runtimes of up to 15 days.
 
 ## 16. Data Capture Diagram
 ```mermaid
